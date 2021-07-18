@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+button, input {
+    font-family: inherit;
+}
+
+.about {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    min-width: 100%;
+    background: #FFFFFF;
+    box-shadow: inset 0px 400px 0px 0px #F5F8FA;
+}
+
+.about__container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 63.3%;
+    height: 870px;
+}
+
+.about__content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 82%;
+    height: 584px;
+    padding-top: 98px;
+    padding-right: 450px;
+    padding-bottom: 74px;
+    padding-left: 98px;
+    background: #263640;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.2), -50px 100px 0px #F5F8FA;
+}
+
+.about__up-header {
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #929A9F;
+}
+
+.about__header {
+    font-family: inherit;
+    font-size: 32px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+.about__description {
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.about__line {
+    position: static;
+    width: 494px;
+    height: 0px;
+    left: 0px;
+    opacity: 0.2;
+    border: 1px solid #FFFFFF;
+}
+
+.about__link {
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 152px;
+    height: 28px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.about__link::before {
+    content: '';
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+    width: 8px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    transform: rotate(45deg);
+}
+
+.about__link::after {
+    content: '';
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    width: 8px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    transform: rotate(-45deg);
+}
+
+.about__image {
+    position: absolute;
+    right: 100px;
+    top: 240px;
+}

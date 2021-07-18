@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+button, input {
+    font-family: inherit;
+}
+
+.footer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: #263640;
+}
+
+.footer__container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 63.3%;
+}
+
+.footer__content {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 64px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.footer__logo {
+    position: relative;
+    width: 135px;height: 40px;
+}
+
+.footer__contacts {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 410px;
+}
+
+.footer__contacts-person {
+    position: relative;
+    width: 157px;
+    height: 78px;
+}
+
+.footer__person-header {
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer__person-description {
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.footer__contacts-address {
+    position: relative;
+    width: 157px;
+    height: 78px;
+}
+
+.footer__address-header {
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer__address-description {
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.footer__line {
+    position: static;
+    width: 1216px;
+    height: 0px;
+    opacity: 0.2;
+    border: 1px solid #FFFFFF;
+}
+
+.footer__under-line {
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
