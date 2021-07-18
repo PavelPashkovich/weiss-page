@@ -1,6 +1,6 @@
 # Weiss page
 
-[watch](https://pavelpashkovich.github.io/pool-app/)
+[watch](https://pavelpashkovich.github.io/weiss-page/)
 
 ### Created by
 
